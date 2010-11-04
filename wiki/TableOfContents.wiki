@@ -7,7 +7,7 @@
  * Documentation
    * [ClientUsage Client Usage]
    * [ServerUsage Server Usage]
-   * [http://jscep.googlecode.com/svn/trunk/docs/index.html API Reference]
+   * [ApiReference API Reference]
  * Getting jSCEP
    * [CompiledPackages Compiled Packages]
    * [http://code.google.com/p/jscep/source/checkout Source Code]
