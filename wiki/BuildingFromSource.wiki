@@ -26,7 +26,7 @@ user@host:~$ cd jscep-read-only
 user@host:~/jscep-read-only$ mvn install
 }}}
 
-This will check out the latest sources from the *jscep* SVN repository and build and install each of the project artefacts into your local Maven repository.
+This will check out the latest sources from SVN and build and install each of the project artefacts into your local Maven repository.
 
 == Browsing the Source ==
 
