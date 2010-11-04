@@ -1,14 +1,14 @@
 #labels Featured
 *jscep* is a fully-featured SCEP library for Java.
 
-|| *Message* || *Support* ||
-|| GetCACert || <font color="green">✔</font> ||
-|| PKCSReq || <font color="green">✔</font> ||
-|| GetCertInitial || <font color="green">✔</font> ||
-|| GetCert || <font color="green">✔</font> ||
-|| GetCRL || <font color="green">✔</font> ||
-|| GetNextCACert || <font color="green">✔</font> ||
-|| GetCACaps || <font color="green">✔</font> ||
+|| *Message* || *Description* || *Support* ||
+|| GetCACert || CA Certificate Retrieval || <font color="green">✔</font> ||
+|| PKCSReq || Certificate Enrolment || <font color="green">✔</font> ||
+|| GetCertInitial || Certificate Enrolment Polling || <font color="green">✔</font> ||
+|| GetCert || Certificate Access || <font color="green">✔</font> ||
+|| GetCRL || CRL Access || <font color="green">✔</font> ||
+|| GetNextCACert || Rollover Certificate Retrieval || <font color="green">✔</font> ||
+|| GetCACaps || Capabilities Request || <font color="green">✔</font> ||
 
 <wiki:toc/>
 
