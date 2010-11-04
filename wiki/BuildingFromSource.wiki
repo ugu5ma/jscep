@@ -1,21 +1,21 @@
-You can use jSCEP by compiling the source, or by downloading one of the [http://code.google.com/p/jscep/downloads/list pre-compiled JARs].
+You can build from source by downloading the source packages, or by checking out the latest source from SVN.
 
 == Source Packages ==
 
 Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.
 
-== Building from Source ==
+== Building from SVN ==
 
 === Prerequisites ===
 
 To build *jscep* from source, you'll need the following tools:
 
  * [http://subversion.apache.org/ Subversion]
- * [http://maven.apache.org/ Apache Maven]
+ * [http://maven.apache.org/ Maven]
 
-=== Getting the Source Code ===
+=== Checking Out ===
 
-You can checkout the trunk (what about other branches and tags?) by running the following commands on your command-line:
+You can checkout the trunk by running the following commands on your command-line:
 
 {{{
 user@host:~$ svn checkout http://jscep.googlecode.com/svn/trunk/ jscep-read-only
@@ -23,8 +23,8 @@ user@host:~$ cd jscep-read-only
 user@host:~/jscep-read-only$ mvn install
 }}}
 
-This will check out the source code from the jSCEP subversion repository, followed by building each of the project artefacts and installing them into your local Maven repository.
+This will check out the latest sources from the *jscep* SVN repository and build and install each of the project artefacts into your local Maven repository.
 
 == Browsing the Source ==
 
-If you'd like to view the source code without downloading a source package or using subversion, you can do so by [http://code.google.com/p/jscep/source/browse/ browsing the repository] using the Google Code viewer, or by using the subversion [http://jscep.googlecode.com/svn/ web interface].
+If you'd like to view the source code without downloading a source package or using SVN, you can do so by [http://code.google.com/p/jscep/source/browse/ browsing the repository] using the Google Code viewer, or by using the subversion [http://jscep.googlecode.com/svn/ web interface].
