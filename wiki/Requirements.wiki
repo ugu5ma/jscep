@@ -1,9 +1,9 @@
 #sidebar TableOfContents
 
-||*Library*||*Maven Scope*||
-||Bouncy Castle Provider||-||
-||Bouncy Castle CMS||-||
-||EasyMock||Test||
-||JUnit||Test||
-||Jetty||Test||
-||Servlet API||Provided||
+|| *Library* || *Maven Scope* ||
+|| Bouncy Castle Provider || - ||
+|| Bouncy Castle CMS || - ||
+|| EasyMock || Test ||
+|| JUnit || Test ||
+|| Jetty || Test ||
+|| Servlet API || Provided ||
