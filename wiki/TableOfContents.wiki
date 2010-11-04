@@ -7,7 +7,7 @@
    * [Legal Legal & Licensing]
  * Getting jSCEP
    * [CompiledPackages Compiled Packages]
-   * [SourceCode Source Code]
+   * [http://code.google.com/p/jscep/source/checkout Source Code]
    * [Maven Maven]
  * Community
    * [MailingLists Mailing Lists]
