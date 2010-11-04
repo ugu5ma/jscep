@@ -4,7 +4,6 @@
    * [Features Features]
    * [Requirements Requirements]
    * [Manual Manual]
-   * [Roadmap Roadmap]
    * [Credits Credits]
    * [Legal Legal & Licensing]
  * Getting jSCEP
