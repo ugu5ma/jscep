@@ -1,3 +1,5 @@
 #summary Javadoc documentation for api, client and server projects
 
-The API documentation is available [http://jscep.googlecode.com/svn/trunk/docs/index.html here].
+== Javadocs ==
+
+The Javadoc documentation is available [http://jscep.googlecode.com/svn/trunk/docs/index.html here].
