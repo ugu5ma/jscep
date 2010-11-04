@@ -2,13 +2,13 @@ You can use jSCEP by compiling the source, or by downloading one of the [http://
 
 == Source Packages ==
 
-We ~~should~~ now offer source code packages.  See ~~issue 8~~ [http://code.google.com/p/jscep/downloads/list?q=*sources.jar here]: 
+Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads area].
 
 == Building from Source ==
 
 === Prerequisites ===
 
-To build, jSCEP from source, you'll need the following tools:
+To build *jscep* from source, you'll need the following tools:
 
  * [http://subversion.apache.org/ Subversion]
  * [http://maven.apache.org/ Apache Maven]
