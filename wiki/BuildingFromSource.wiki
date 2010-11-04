@@ -2,7 +2,7 @@ You can use jSCEP by compiling the source, or by downloading one of the [http://
 
 == Source Packages ==
 
-Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads area].
+Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.
 
 == Building from Source ==
 
