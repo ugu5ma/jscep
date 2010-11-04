@@ -3,8 +3,11 @@
  * About jSCEP
    * [Features Features]
    * [Requirements Requirements]
-   * [Manual Manual]
    * [Legal Legal & Licensing]
+ * Documentation
+   * [ClientUsage Client Usage]
+   * [ServerUsage Server Usage]
+   * [http://jscep.googlecode.com/svn/trunk/docs/index.html API Reference]
  * Getting jSCEP
    * [CompiledPackages Compiled Packages]
    * [http://code.google.com/p/jscep/source/checkout Source Code]
