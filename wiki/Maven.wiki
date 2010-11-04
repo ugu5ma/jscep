@@ -5,7 +5,7 @@
 || artifactId || *api*, *client* or *server* ||
 || version || *1.1.1* ||
 
-To add the *jscep* API as a dependency to your own Maven project, add the following to your `pom.xml`:
+For example, to add the *jscep* API as a dependency to your own Maven project, add the following to your `pom.xml`:
 
 {{{
 <dependencies>
