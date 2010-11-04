@@ -1,6 +1,4 @@
-#summary How to construct a new Client instance
-
-<wiki:toc/>
+#summary How to use jscep as a SCEP client
 
 == Creating a new Client ==
 
