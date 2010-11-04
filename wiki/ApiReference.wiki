@@ -1,0 +1,5 @@
+#summary Javadoc documentation for api, client and server projects
+
+The API documentation is hosted in the SVN repository:
+
+http://jscep.googlecode.com/svn/trunk/docs/index.html
