@@ -1,4 +1,4 @@
 #summary How to use jscep as a SCEP server
 #labels Phase-Implementation
 
-Extend [http://jscep.googlecode.com/svn/trunk/docs/org/jscep/server/ScepServlet.html ScepServlet]
+To use *jscep* as a SCEP servet, it is necessary to extend the abstract [http://jscep.googlecode.com/svn/trunk/docs/org/jscep/server/ScepServlet.html ScepServlet]. 
