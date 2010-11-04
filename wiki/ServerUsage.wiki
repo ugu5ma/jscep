@@ -1,4 +1,4 @@
 #summary How to use jscep as a SCEP server
 #labels Phase-Implementation
 
-An abstract [http://jscep.googlecode.com/svn/trunk/docs/org/jscep/server/ScepServlet.html ScepServlet] is provided for performing all the necessary steps for implementing a SCEP server.
+An abstract [http://jscep.googlecode.com/svn/trunk/docs/org/jscep/server/ScepServlet.html servlet] is provided for performing all the necessary steps for implementing a SCEP server.
