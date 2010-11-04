@@ -1,6 +1,4 @@
 #labels Featured
-*jscep* is a fully-featured SCEP library for Java.
-
 == Message Support ==
 
 || *Message* || *Description* || *Support* ||
