@@ -12,6 +12,16 @@
 || GetNextCACert || Rollover Certificate Retrieval || <font color="green">✔</font> ||
 || GetCACaps || Capabilities Request || <font color="green">✔</font> ||
 
+== Algorithm Support ==
+
+|| *Algorithm* || *Support* ||
+|| DES || <font color="green">✔</font> ||
+|| Triple DES || <font color="green">✔</font> ||
+|| MD5 || <font color="green">✔</font> ||
+|| SHA-1 || <font color="green">✔</font> ||
+|| SHA-256 || <font color="green">✔</font> ||
+|| SHA-512 || <font color="green">✔</font> ||
+
 <wiki:toc/>
 
 jSCEP aims to be fully compliant with the [http://tools.ietf.org/html/draft-nourse-scep latest SCEP Internet-Draft].  The following operations are supported in the current release:
