@@ -1,5 +1,7 @@
 #sidebar TableOfContents
 
+The following libraries are required to use *jscep*:
+
 || *Library* || *Maven Scope* ||
 || Bouncy Castle Provider || - ||
 || Bouncy Castle CMS || - ||
