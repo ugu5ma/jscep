@@ -7,7 +7,7 @@ The server project provides an abstract servlet (called !ScepServlet) for the ha
 
 == Deployment ==
 
-There are no special deployment requirements for the !ScepServlet, but you are recommended to use a servlet-mapping ending with "pkiclient.exe", for example:
+There are no special deployment requirements for the !ScepServlet, but you are recommended to use a servlet-mapping ending with "pkiclient.exe" (as required by the SCEP specification), for example:
 
 {{{
 <servlet>
