@@ -2,7 +2,7 @@ You can build from source by downloading the source packages, or by checking out
 
 == Source Packages ==
 
-Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.
+Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.  his is arguably the harder than building from SVN, as you will also need to download all of *jscep*'s dependencies.
 
 == Building from SVN ==
 
