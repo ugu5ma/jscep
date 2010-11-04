@@ -1,8 +1,4 @@
+#summary How to use jscep as a SCEP server
 #labels Phase-Implementation
-*This should be moved to become part of the [Manual manual]*
 
-jSCEP provides an abstract servlet to eliminate the SCEP-specific parts, leaving only the PKI operations to be implemented.
-
-Servlet Container (tested with [http://jetty.codehaus.org/jetty/ Jetty])
-
-Extend com.google.code.jscep.!ScepServlet
+Extend [http://jscep.googlecode.com/svn/trunk/docs/org/jscep/server/ScepServlet.html ScepServlet]
