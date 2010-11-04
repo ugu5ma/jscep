@@ -4,7 +4,6 @@
    * [Features Features]
    * [Requirements Requirements]
    * [Manual Manual]
-   * [Credits Credits]
    * [Legal Legal & Licensing]
  * Getting jSCEP
    * [CompiledPackages Compiled Packages]
