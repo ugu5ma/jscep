@@ -3,7 +3,7 @@
 || *Library* || *Maven Scope* ||
 || Bouncy Castle Provider || - ||
 || Bouncy Castle CMS || - ||
-|| EasyMock || Test ||
+|| !EasyMock || Test ||
 || JUnit || Test ||
 || Jetty || Test ||
 || Servlet API || Provided ||
