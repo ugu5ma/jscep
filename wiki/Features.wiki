@@ -12,6 +12,13 @@
 || GetNextCACert || Rollover Certificate Retrieval || <font color="green">✔</font> ||
 || GetCACaps || Capabilities Request || <font color="green">✔</font> ||
 
+== HTTP Transport Support ==
+
+|| *Transport* || *Support* ||
+|| GET || <font color="green">✔</font> ||
+|| POST || <font color="green">✔</font> ||
+
+
 == Algorithm Support ==
 
 || *Algorithm* || *Support* ||
