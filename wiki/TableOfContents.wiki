@@ -10,7 +10,7 @@
    * [ApiReference API Reference]
  * Getting jSCEP
    * [CompiledPackages Compiled Packages]
-   * [http://code.google.com/p/jscep/source/checkout Source Code]
+   * [BuildingFromSource Building from Source]
    * [Maven Maven]
  * Community
    * [MailingLists Mailing Lists]
