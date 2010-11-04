@@ -1,6 +1,9 @@
-You can build from source by downloading the source packages, or by checking out the latest source from SVN (recommended).
+You can build from source by:
 
-== Source Packages ==
+  # Downloading the Source Packages
+  # Building from SVN (Recommended).
+
+== Downloading Source Packages ==
 
 Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.
 
