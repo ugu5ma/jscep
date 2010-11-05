@@ -115,7 +115,7 @@ The SCEP client can be used to retrieve the latest CRL from the CA, if supported
 
 {{{
 try {
-    Collection<X509CRL> crls = client.getRevocationList();
+    X509CRL crl = client.getRevocationList();
 } catch (OperationFailureException e) {
     FailInfo fail = e.getFailInfo();
 }
