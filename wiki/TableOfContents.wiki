@@ -6,6 +6,7 @@
    * [Legal Legal & Licensing]
  * Documentation
    * [ClientUsage Client Usage]
+     * [CallbackHandlerUsage Callback Handler]
    * [ServerUsage Server Usage]
    * [ApiReference API Reference]
  * Getting jSCEP
