@@ -1,6 +1,6 @@
 #summary How to write a CallbackHandler
 
-Writing a CallbackHandler for *jscep* will depend on the environment under which you are running.  The basic code will look like so:
+Writing a [http://download.oracle.com/javase/6/docs/api/javax/security/auth/callback/CallbackHandler.html CallbackHandler] for *jscep* will depend on the environment under which you are running.  The basic code will look like so:
 
 {{{
 public class MyCallbackHandler implements CallbackHandler {
@@ -25,3 +25,7 @@ public class MyCallbackHandler implements CallbackHandler {
     }
 }
 }}}
+
+In the above snippet, the `verify()` method always returns true, which means that we don't really care what the certificate is.  This is almost never the correct thing to do!
+
+Your application must either be provisioned with the identity of the certificate, or it must prompt the user to make a decision.  This decision-making process might be made through a Swing dialog, or through a [http://download.oracle.com/javase/6/docs/api/java/io/Console.html Console] prompt.
