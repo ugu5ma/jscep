@@ -5,14 +5,23 @@ Writing a CallbackHandler for *jscep* will depend on the environment under which
 {{{
 public class MyCallbackHandler implements CallbackHandler {
     public void handle(Callback[] callbacks) throws IOException, UnsupportedCallbackException {
+        // Loop through all the callbacks.  There will only ever be one.
         for (int i = 0; i < callbacks.length; i++) {
+            // Check that the callback is a CertificateVerificationCallback
             if (callbacks[i] instanceof CertificateVerificationCallback) {
+                // Cast the callback
                 CertificateVerificationCallback callback = (CertificateVerificationCallback) callbacks[i];
-                callback.setVerified(true);
+                // Check the certificate
+                callback.setVerified(verify(callback.getCertificate());
             } else {
+                // If we don't know the type of callback, throw an exception
                 throw new UnsupportedCallbackException(callbacks[i]);
             }
         }
+    }
+
+    public boolean verify(X509Certificate cert) {
+        return true;
     }
 }
 }}}
