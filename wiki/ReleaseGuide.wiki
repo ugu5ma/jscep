@@ -1,0 +1,25 @@
+#summary How to do a release
+
+{{{
+mvn release:prepare
+}}}
+
+Enter the new version numbers.  Defaults are usually fine.  You will then be prompted for the password for your GPG key.  If everything goes fine, then do:
+
+{{{
+mvn release:perform
+}}}
+
+Otherwise, do:
+
+{{{
+mvn release:rollback
+}}}
+
+When the release has been performed and the artifacts have been deployed to Sonatype, check out the new release tag, then do
+
+{{{
+mvn clean package source:jar javadoc:jar
+}}}
+
+Upload the source, javadoc and jar artifacts for api, client and server.
