@@ -11,20 +11,18 @@ The following people have made contributions to jscep:
     * Verisign Server
     * iOS (iPhone, iPad, iPod Touch)
 
-==Patches==
+==Issues & Patches==
 
   * Andrew Jaquith
   * Roman Kisilenko
   * Nikolas Pooch
-    * Entrust VPN Enrolment Server
   * Victor Ronin
 
-==Bug Reporters==
+==Issues==
 
   * freeborg
   * hiro2k
   * jonesmw
-    * Microsoft NDES
   * Jason Millard
   * Martin Ždila
   * David Pomeroy
