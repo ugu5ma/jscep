@@ -3,16 +3,32 @@
 
 The following people have made contributions to jscep:
 
+==Major Contributions==
+
+  * Justin Peters, Mark Stevens & Nigel Tedeschi (BT)
+    * CertNanny
+    * Cisco
+    * Verisign Server
+    * iOS (iPhone, iPad, iPod Touch)
+
+==Patches==
+
+  * Andrew Jaquith
+  * Roman Kisilenko
+  * Nikolas Pooch
+    * Entrust VPN Enrolment Server
+  * Victor Ronin
+
 ==Bug Reporters==
 
-  * freeborg@gmail.com (issue 8)
-  * hiro2k (issue 15, issue 16)
-  * andrew.r.jaquith (issue 17)
-  * m.zdila (issue 19)
-  * romain.maillist (issue 20, issue 21, issue 22)
-  * nikolas.pooch (issue 23)
-  * jonesmw (issue 24)
-  * David Pomeroy (dfpomeroy) (issue 28)
-  * victor.ronin (issue 30)
-  * jsm174 (issue 31)
-  * justin.peters@bt.com (issue 32, issue 33, issue 35, issue 36, issue 37, issue 38, issue 39, issue 40)
+  * freeborg
+  * hiro2k
+  * jonesmw
+    * Microsoft NDES
+  * Jason Millard
+  * Martin Ždila
+  * David Pomeroy
+
+==Active Mailing List Members==
+
+  * Gordon Young
