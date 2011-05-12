@@ -6,7 +6,7 @@ The following people have made contributions to jscep:
 ==Major Contributions==
 
   * Justin Peters, Mark Stevens & Nigel Tedeschi (BT)
-    * CertNanny
+    * !CertNanny
     * Cisco
     * Verisign Server
     * iOS (iPhone, iPad, iPod Touch)
