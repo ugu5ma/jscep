@@ -12,7 +12,7 @@ The following people have made contributions to jscep:
   * romain.maillist (issue 20, issue 21, issue 22)
   * nikolas.pooch (issue 23)
   * jonesmw (issue 24)
-  * dfpomeroy (issue 28)
+  * David Pomeroy (dfpomeroy) (issue 28)
   * victor.ronin (issue 30)
   * jsm174 (issue 31)
   * justin.peters@bt.com (issue 32, issue 33, issue 35, issue 36, issue 37, issue 38, issue 39, issue 40)
