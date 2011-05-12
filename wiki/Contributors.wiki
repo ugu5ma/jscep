@@ -1,4 +1,20 @@
 #summary List of contributors to jscep
 #labels Phase-Support
 
-  * Justin Peters, BT
+The following people have made contributions to jscep:
+
+  * Andrew JACQUITH
+  * Justin PETERS (BT)
+  *
+  * Mark STEVENS (BT)
+  * Nigel TEDESCHI (BT)
+  * Gordon YOUNG (Wells Fargo)
+
+Patches
+
+  * 
+
+Bug Reporters
+
+  * [http://code.google.com/u/@UBhWR1ZQDhBCXAF7 freeb...@gmail.com]
+  * David POMEROY
