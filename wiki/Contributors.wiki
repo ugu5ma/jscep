@@ -3,18 +3,16 @@
 
 The following people have made contributions to jscep:
 
-  * Andrew JACQUITH
-  * Justin PETERS (BT)
-  *
-  * Mark STEVENS (BT)
-  * Nigel TEDESCHI (BT)
-  * Gordon YOUNG (Wells Fargo)
+==Bug Reporters==
 
-Patches
-
-  * 
-
-Bug Reporters
-
-  * [http://code.google.com/u/@UBhWR1ZQDhBCXAF7 freeb...@gmail.com]
-  * David POMEROY
+  * freeborg@gmail.com (issue 8)
+  * hiro2k (issue 15, issue 16)
+  * andrew.r.jaquith (issue 17)
+  * m.zdila (issue 19)
+  * romain.maillist (issue 20, issue 21, issue 22)
+  * nikolas.pooch (issue 23)
+  * jonesmw (issue 24)
+  * dfpomeroy (issue 28)
+  * victor.ronin (issue 30)
+  * jsm174 (issue 31)
+  * justin.peters@bt.com (issue 32, issue 33, issue 35, issue 36, issue 37, issue 38, issue 39, issue 40)
