@@ -16,11 +16,10 @@ Otherwise, do:
 mvn release:rollback
 }}}
 
-When the release has been performed and the artifacts have been deployed to Sonatype, check out the new release tag, then do
+When the release has been performed and the artifacts have been deployed to Sonatype, check out the new release tag, then do in each of api, client and server.
 
 {{{
-mvn clean package source:jar javadoc:jar
-mvn com.googlecode.maven-gcu-plugin:maven-gcu-plugin:1.0:upload
+mvn clean package source:jar javadoc:jar com.googlecode.maven-gcu-plugin:maven-gcu-plugin:1.0:upload
 }}}
 
 Upload the source, javadoc and jar artifacts for api, client and server.
