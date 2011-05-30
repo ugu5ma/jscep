@@ -20,6 +20,7 @@ When the release has been performed and the artifacts have been deployed to Sona
 
 {{{
 mvn clean package source:jar javadoc:jar
+mvn com.googlecode.maven-gcu-plugin:maven-gcu-plugin:1.0:upload
 }}}
 
 Upload the source, javadoc and jar artifacts for api, client and server.
