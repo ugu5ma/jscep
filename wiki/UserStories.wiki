@@ -3,3 +3,8 @@
 = Introduction =
 
 See the [http://en.wikipedia.org/wiki/User_story user story] article on Wikipedia for more information on user stories.
+
+= Detail =
+
+  * As a user, I want to enrol a certificate in a PKI so that I can interact with other users in the PKI.
+  * As a user, I want to renew a certificate in a PKI so that I can continue to interact with other users in the PKI.
