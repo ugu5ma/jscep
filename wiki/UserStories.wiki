@@ -13,5 +13,5 @@ See the [http://en.wikipedia.org/wiki/User_story user story] article on Wikipedi
 = Server Configurations =
 
   * CA
-  * CA + 2 RAs (Entrust VPN Enrollment Server)
-  * CA, SubCA + 2 RAs (Microsoft NDES)
+  * CA, SubCA, RA Signing, RA Encryption (Microsoft NDES)
+  * CA, RA Signing, RA Encryption (Microsoft NDES, [http://www.entrust.com/pki/vpn/ Entrust VPN Enrollment Server])
