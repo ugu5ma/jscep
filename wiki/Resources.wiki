@@ -11,7 +11,7 @@ As part of our [QualityAssurance QA] process, we would like to be able to schedu
   * [http://www.openca.org/ OpenCA]
   * [http://technet.microsoft.com/en-us/library/cc779826%28WS.10%29.aspx Microsoft Certificate Services]
   * [http://www.cs.auckland.ac.nz/~pgut001/cryptlib/ CryptLib]
-  * [http://www.entrust.com/pki/index.htm Entrust Authority]
+  * [http://www.entrust.com/pki/index.htm Entrust Authority], [http://www.entrust.com/pki/vpn/ Enrollment Server for VPN]
   * [http://www.redhat.com/certificate_system/ Red Hat Certificate System] or [http://pki.fedoraproject.org/wiki/PKI_Main_Page Dog Tag] (for Fedora)
   * [http://www.ssh.com/products/infrastructure/client-server/ SSH Tectia]
   * [https://www.verisign.com/authentication/enterprise-authentication/managed-pki/index.html Verisign Managed PKI]
