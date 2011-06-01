@@ -14,3 +14,4 @@ See the [http://en.wikipedia.org/wiki/User_story user story] article on Wikipedi
 
   * CA
   * CA + 2 RAs (Entrust VPN Enrollment Server)
+  * CA, SubCA + 2 RAs (Microsoft NDES)
