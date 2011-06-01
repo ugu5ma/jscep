@@ -6,5 +6,6 @@ See the [http://en.wikipedia.org/wiki/User_story user story] article on Wikipedi
 
 = Detail =
 
-  * As a user, I want to enrol a certificate in a PKI so that I can interact with other users in the PKI.
-  * As a user, I want to renew a certificate in a PKI so that I can continue to interact with other users in the PKI.
+  * As a systems administrator, I want to add an entity to the PKI so that it can interact with other entities.
+  * As a systems administrator, I want to renew an entity's certificate so that it can continue to interact with other entities.
+  * As a systems administrator, I want to transition an entity from the old PKI to the new PKI so it can interact with other entities in the new PKI.
