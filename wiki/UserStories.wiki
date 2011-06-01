@@ -1,0 +1,5 @@
+#summary Agile user stories for jscep
+
+= Introduction =
+
+See the [http://en.wikipedia.org/wiki/User_story user story] article on Wikipedia for more information on user stories.
