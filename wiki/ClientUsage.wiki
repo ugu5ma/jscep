@@ -74,6 +74,8 @@ The State object is an enum which represents one of the following states:
   # Failure
   # Result Pending
 
+*Insert graphic of state machine*
+
 If the transaction was successful (`State.CERT_ISSUED`), the CSR was accepted, and a certificate has been returned.  To retrieve the certificate, call `getCertStore()` on the transaction, and retrieve the certificate:
 
 {{{
