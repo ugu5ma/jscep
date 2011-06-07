@@ -38,4 +38,5 @@ As part of our [QualityAssurance QA] process, we would like to be able to schedu
 
 = Other =
 
+  * [http://www.cisco.com/warp/public/cc/pd/sqsw/tech/scep_wp.pdf Cisco SCEP Whitepaper]
   * [http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e11780de-819f-40d7-8b8e-10845bc8d446 Microsoft Network Directory Enrollment Service Whitepaper].  NDES is the Microsoft implementation of SCEP
