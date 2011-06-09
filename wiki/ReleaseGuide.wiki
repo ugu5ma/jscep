@@ -23,3 +23,7 @@ mvn clean install source:jar javadoc:jar com.googlecode.maven-gcu-plugin:maven-g
 }}}
 
 Upload the source, javadoc and jar artifacts for api, client and server.
+
+==Maven Artifact==
+
+Login to oss.sonatype.org
