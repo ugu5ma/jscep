@@ -14,6 +14,5 @@
    * [BuildingFromSource Building from Source]
    * [Maven Maven]
  * [Support Support]
-   * [MailingLists Mailing Lists]
  * Community
    * [GettingInvolved Getting Involved]
