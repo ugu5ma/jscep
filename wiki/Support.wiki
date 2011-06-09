@@ -1,7 +1,7 @@
-#summary One-sentence summary of this page.
+#summary How to get support
 
 = Mailing Lists =
 
+If you have any questions about any aspect of jscep, send them to the [http://groups.google.com/group/jscep-support jscep-support] mailing list.
 
-= Issues =
-
+If you have encountered a definite problem, or have identified a feature you'd like to see, please add them to our [http://code.google.com/p/jscep/issues/list issues list].
