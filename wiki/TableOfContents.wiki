@@ -13,7 +13,7 @@
    * [CompiledPackages Compiled Packages]
    * [BuildingFromSource Building from Source]
    * [Maven Maven]
- * Support
+ * [Support Support]
    * [MailingLists Mailing Lists]
  * Community
    * [GettingInvolved Getting Involved]
