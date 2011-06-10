@@ -1,4 +1,5 @@
 #summary Javadoc documentation for api, client and server projects
+#labels Deprecated
 
 == Javadocs ==
 
