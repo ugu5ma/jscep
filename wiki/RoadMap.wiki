@@ -5,3 +5,4 @@ In terms of the API, the roadmap is pretty much governed by changes to the [http
  * CRL Distribution Points
  * Correct handling of GetNextCA
  * ~~RA as Client~~
+ * Android Support
