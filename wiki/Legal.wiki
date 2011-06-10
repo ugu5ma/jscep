@@ -1,1 +1,2 @@
+#labels Manual
 *jscep* is licensed under the [http://en.wikipedia.org/wiki/MIT_License MIT License].  You are free to use *jscep* in whatever environment you choose, either open or closed source, but you *must* include [http://jscep.googlecode.com/svn/trunk/LICENCE.txt this license] with your code.
