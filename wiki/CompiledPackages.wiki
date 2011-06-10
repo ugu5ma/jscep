@@ -1,1 +1,2 @@
+#labels Manual
 This is the easiest way to try out *jscep*.  A list of current libraries is available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=Type:Library&can=3 Downloads] page.
