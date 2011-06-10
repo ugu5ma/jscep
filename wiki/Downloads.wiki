@@ -1,3 +1,0 @@
-To help improve jSCEP, *please* provide some [http://code.google.com/p/jscep/issues/entry?template=Feedback%20from%20user feedback] through our issue tracking system after downloading and evaluating your file.
-
-==[http://code.google.com/p/jscep/downloads/list Continue to Downloads]==
