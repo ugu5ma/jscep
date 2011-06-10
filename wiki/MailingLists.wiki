@@ -1,5 +1,0 @@
-All support requests should go through the mailing list:
-
-*[http://groups.google.com/group/jscep-support jscep-support]*
-
-For requesting support or advice on using *jscep*.  This mailing list should not be used for reporting bugs or requesting features.  Instead, please use the [http://code.google.com/p/jscep/issues/list issues] project page.
