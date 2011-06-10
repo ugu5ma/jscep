@@ -1,4 +1,5 @@
 #summary About jscep
+#labels Manual
 
  * About jscep
    * [Features Features]
