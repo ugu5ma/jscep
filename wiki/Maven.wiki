@@ -1,4 +1,4 @@
-#labels Phase-Implementation
+#labels Phase-Implementation,Manual
 *jscep* artifacts are now available from  [http://repo1.maven.org/maven2/com/google/code/jscep/ Maven Central].  The dependency details are as follows:
 
 || groupId || *com.google.code.jscep* ||
