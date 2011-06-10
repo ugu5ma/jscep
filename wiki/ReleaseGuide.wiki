@@ -1,4 +1,5 @@
 #summary How to do a release
+#labels Phase-Support
 
 {{{
 mvn release:prepare
