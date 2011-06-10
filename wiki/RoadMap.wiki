@@ -1,5 +1,5 @@
 #labels Manual
-We are currently on release [OneDotTwo 1.2]
+We are currently on [ReleaseOneDotTwo release  1.2]
 
 In terms of the API, the roadmap is pretty much governed by changes to the 
 [http://tools.ietf.org/html/draft-nourse-scep SCEP Internet-Draft].
