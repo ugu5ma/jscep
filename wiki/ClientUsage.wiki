@@ -1,4 +1,5 @@
 #summary How to use jscep as a SCEP client
+#labels Manual
 
 == Creating a new Client ==
 
