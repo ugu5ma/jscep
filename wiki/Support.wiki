@@ -1,4 +1,5 @@
 #summary How to get support
+#labels Manual
 
   * If you have any questions about any aspect of jscep, please send them to the [http://groups.google.com/group/jscep-support jscep-support] mailing list ([mailto:jscep-support@googlegroups.com jscep-support@googlegroups.com]).
   * If you have encountered a definite problem, or have identified a feature you'd like to see, please add it to our [http://code.google.com/p/jscep/issues/list issues list].
