@@ -1,5 +1,5 @@
 #summary How to add jSCEP to your own application.
-#labels Phase-Deploy
+#labels Deprecated
 
 = Introduction =
 
