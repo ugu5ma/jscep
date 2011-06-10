@@ -1,6 +1,6 @@
-#summary About jSCEP
+#summary About jscep
 
- * About jSCEP
+ * About jscep
    * [Features Features]
    * [Requirements Requirements]
    * [Legal Legal & Licensing]
