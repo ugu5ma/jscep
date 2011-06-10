@@ -1,4 +1,5 @@
 #summary How to write a CallbackHandler
+#labels Manual
 
 Writing a [http://download.oracle.com/javase/6/docs/api/javax/security/auth/callback/CallbackHandler.html CallbackHandler] for *jscep* will depend on the environment under which you are running.  The basic code will look like so:
 
