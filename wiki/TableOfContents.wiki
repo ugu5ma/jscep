@@ -3,8 +3,8 @@
 
  * About jscep
    * [Features Features]
-   * [Requirements Requirements]
    * ReleaseNotes
+   * [Requirements Requirements]
    * RoadMap
    * [Legal Legal & Licensing]
  * Documentation
