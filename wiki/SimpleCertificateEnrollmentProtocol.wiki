@@ -1,4 +1,4 @@
-#summary About the protocol
+#summary About SCEP
 
 == About ==
 
