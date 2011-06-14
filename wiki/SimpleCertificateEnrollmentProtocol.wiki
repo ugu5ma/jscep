@@ -1,3 +1,7 @@
 #summary About the protocol
 
 http://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol
+
+== Latest Internet Draft ==
+
+http://tools.ietf.org/html/draft-nourse-scep
