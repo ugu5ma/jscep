@@ -1,6 +1,6 @@
 #summary About the protocol
 
-http://en.wikipedia.org/wiki/Simple_Certificate_Enrollment_Protocol
+SCEP, the Simple Certificate Enrollment Protocol is a PKI communication protocol which leverages existing technology by using PKCS#7 and PKCS#10 over HTTP.  SCEP is the evolution of the enrollment protocol developed by VeriSign, Inc. for Cisco Systems, Inc.
 
 == Latest Internet Draft ==
 
