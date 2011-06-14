@@ -1,14 +1,28 @@
 #summary One-sentence summary of this page.
 #labels Manual
 
-= Introduction =
+= 1.2 (2011-05-30) =
 
-Add your content here.
+Bug fixes for issue 28, issue 30, issue 35, issue 36, issue 37, issue 38, issue 39 and issue 40.  Thanks to Justin Peters at BT Trustwise for the majority of the patches!
 
+= 1.1.4 (2011-03-03) =
 
-= Details =
+Bug fix for issue 24.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= 1.1.3 (2011-02-01) =
+
+Bug fixes for issue 20, issue 21 and issue 23.
+
+= 1.1.2 (2010-11-05) =
+
+Some minor API changes, and much-improved SCEP server support.
+
+= 1.1.1 (2010-11-02) =
+
+Added lots of refactoring and API changes as part of work sponsored by [http://www.thrupoint.net/ ThruPoint, Ltd.]
+
+http://www.thrupoint.com/templates/ja_anion/core/themes/light-brown/images/logo.png
+
+= 1.0.0 (2010-03-03) =
+
+This is the first major stable release of jscep.
