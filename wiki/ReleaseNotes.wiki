@@ -38,8 +38,6 @@ Some minor API changes, and much-improved SCEP server support.
 
 Added lots of refactoring and API changes as part of work sponsored by [http://www.thrupoint.net/ ThruPoint, Ltd.]
 
-http://www.thrupoint.com/templates/ja_anion/core/themes/light-brown/images/logo.png
-
 = 1.0.0 (2010-03-03) =
 
 This is the first major stable release of jscep.
