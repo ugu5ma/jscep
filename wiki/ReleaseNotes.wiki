@@ -1,5 +1,5 @@
 #summary One-sentence summary of this page.
-#labels Manual
+#labels Manual,Featured
 
 = 1.2 (2011-05-30) =
 
