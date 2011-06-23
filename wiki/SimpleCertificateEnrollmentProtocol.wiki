@@ -7,3 +7,16 @@ The Simple Certificate Enrollment Protocol is a PKI communication protocol which
 == Latest Internet Draft ==
 
 http://tools.ietf.org/html/draft-nourse-scep
+
+== Overview ==
+
+=== Actors ===
+
+  # Requester or Client
+  # CA
+
+=== Steps ===
+
+  # Requester sents GetCACert message to SCEP URL
+  # Either CA or RA responds with single certificate or certificate chain (CA -> RA)
+  # Requester checks if CA certificate is trusted by prompting user
