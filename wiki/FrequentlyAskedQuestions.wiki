@@ -1,5 +1,5 @@
 #summary One-sentence summary of this page.
 
-= What is a degenerate SignedData message? =
+= What is a degenerate !SignedData message? =
 
-SignedData without any payload.
+A 'degenerate' !SignedData message is a !SignedData message without any payload (that is, nothing is actually signed).
