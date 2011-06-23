@@ -17,14 +17,20 @@ http://tools.ietf.org/html/draft-nourse-scep
 
 === Steps ===
 
-  # Requester sents *GetCACert* message to SCEP URL
+  # Requester sends *GetCACert* message to SCEP URL
   # Either CA or RA responds with single DER-encoded X.509 certificate DER-encoded 'degenerate' PKCS#7 !SignedData message with an X.509 certificate chain (CA -> RA)
   # Requester checks if CA certificate is trusted by prompting user with message digest of X.509 certificate
   # Requester constructs a PKCS#10 certificate signing request (CSR)
   # Requester constructs a PKCS#7 !EnvelopedData object using the DER-encoded CSR and encrypts it using the message recipient's public key (either the CA, or an RA with a dataEncipherment !KeyUsage extension)   
-  # Requester constructs a PKCS#7 !SignedData using the DER-encoded !EnvelopedData and signs the data using its RSA private key
+  # Requester constructs a PKCS#7 !SignedData using the DER-encoded !EnvelopedData and its certificate, and signs the data using its RSA private key
   # Requester sends the DER-encoded !SignedData object in a *PKCSReq* message to the RA (or CA)
-  # RA (or CA) opens the !SignedData message (*without verifying the signature*) and extracts the !EnvelopedData.
+  # RA (or CA) opens the !SignedData message and extracts the !EnvelopedData.
   # RA uses its private key to decrypt the !EnvelopedData and extracts the PKCS#10 CSR
   # RA examines the challengePassword in CSR to authenticate request
-  
+  # RA sends CSR to CA
+  # CA generates X.509 certificate from CSR and signs it
+  # CA sends signed-certificate to RA
+  # RA creates a 'degenerate' !SignedData and adds signed-certificate
+  # RA creates a !EnvelopedData with the DER-encoded !SignedData, encrypting using the Requesters public key (provided in the !SignedData)
+  # RA creates a !SignedData object and signs using the RA key with a digitalSignature !KeyUsage extension
+  # RA sends the message to the Requester
