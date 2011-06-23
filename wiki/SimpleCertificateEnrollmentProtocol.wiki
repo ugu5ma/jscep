@@ -18,5 +18,5 @@ http://tools.ietf.org/html/draft-nourse-scep
 === Steps ===
 
   # Requester sents *GetCACert* message to SCEP URL
-  # Either CA or RA responds with single DER-encoded X.509 certificate DER-encoded PKCS#7 certificate chain (CA -> RA)
-  # Requester checks if CA certificate is trusted by prompting user
+  # Either CA or RA responds with single DER-encoded X.509 certificate DER-encoded 'degenerate' PKCS#7 X.509 certificate chain (CA -> RA)
+  # Requester checks if CA certificate is trusted by prompting user with message digest of X.509 certificate
