@@ -4,4 +4,4 @@
 
 = What is a degenerate !SignedData message? =
 
-A 'degenerate' !SignedData message is a !SignedData message without any payload (that is, nothing is actually signed).
+A 'degenerate' !SignedData message is a !SignedData message without any payload (that is, nothing is actually signed). 
