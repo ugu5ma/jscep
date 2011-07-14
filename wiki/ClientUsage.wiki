@@ -3,7 +3,7 @@
 
 == Creating a new Client ==
 
-Firstly, you will need is the URL of your SCEP server:
+Firstly, you will need the URL of your SCEP server:
 
 {{{
 URL server = new URL("http://pki.example.org:8080/scep/pkiclient.exe");
