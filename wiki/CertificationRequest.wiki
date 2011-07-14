@@ -7,10 +7,13 @@ String signatureAlgorithm = "SHA1withRSA";
 X500Principal subject = new X500Principal("CN=alpha.jscep.org");
 PublicKey key = ...;
 DERObjectIdentifier attrType = PKCSObjectIdentifiers.pkcs_9_at_challengePassword;
+DEREncodable password = new DERPrintableString("challenge");
 ASN1Set attrValues = new ASN1Set();
-DEREncodable password = new Attribute(attrType, attrValues);
+attrValues.addObject(password);
+
+DEREncodable passwordAttr = new Attribute(attrType, attrValues);
 ASN1Set attributes = new ASN1Set();
-attributes.addObject(password);
+attributes.addObject(passwordAttr);
 PrivateKey signingKey = ...;
 
 PKCS10CertificationRequest csr = new PKCS10CertificationRequest(signatureAlgorithm, subject, key, attributes, signingKey);
