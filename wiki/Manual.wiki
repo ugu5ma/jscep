@@ -1,7 +1,7 @@
 #labels Phase-Support,Featured
 === About jSCEP ===
 
-This page will be used to capture the requirements of *all* jSCEP documentation from a user's point of view.
+This page will be used to capture the requirements of jscep documentation from a user's point of view.
 
  * [Installation Installation]
  * [ClientUsage Using the SCEP Client]
