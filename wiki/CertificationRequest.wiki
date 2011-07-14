@@ -6,5 +6,7 @@ org.bouncycastle.asn1.pkcs.CertificationRequest
 String signatureAlgorithm = "SHA1withRSA";
 X500Principal subject = new X500Principal("CN=alpha.jscep.org");
 PublicKey key = ...;
-PKCS10CertificationRequest csr = new PKCS10CertificationRequest(signatureAlgorithm, subject);
+ASN1Set attributes = ...;
+PrivateKey signingKey = ...;
+PKCS10CertificationRequest csr = new PKCS10CertificationRequest(signatureAlgorithm, subject, key, attributes, signingKey);
 }}} 
