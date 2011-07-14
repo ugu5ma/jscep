@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-org.bouncycastle.asn1.pkcs.CertificationRequest
+How to set a password 
 
 {{{
 String signatureAlgorithm = "SHA1withRSA";
