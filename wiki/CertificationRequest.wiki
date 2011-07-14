@@ -9,8 +9,8 @@ PublicKey key = ...;
 
 DERObjectIdentifier attrType = PKCSObjectIdentifiers.pkcs_9_at_challengePassword;
 ASN1Set attrValues = new DERSet(new DERPrintableString("challenge"));
-DEREncodable passwordAttr = new Attribute(attrType, attrValues);
-ASN1Set attributes = new DERSet(passwordAttr);
+DEREncodable password = new Attribute(attrType, attrValues);
+ASN1Set attributes = new DERSet(password);
 
 PrivateKey signingKey = ...;
 
