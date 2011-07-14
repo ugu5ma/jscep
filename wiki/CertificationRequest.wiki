@@ -8,8 +8,9 @@ X500Principal subject = new X500Principal("CN=alpha.jscep.org");
 PublicKey key = ...;
 DERObjectIdentifier attrType = PKCSObjectIdentifiers.pkcs_9_at_challengePassword;
 ASN1Set attrValues = new ASN1Set();
-Attribute password = new Attribute(attrType, attrValues);
+DEREncodable password = new Attribute(attrType, attrValues);
 ASN1Set attributes = new ASN1Set();
+attributes.addObject(password);
 PrivateKey signingKey = ...;
 
 PKCS10CertificationRequest csr = new PKCS10CertificationRequest(signatureAlgorithm, subject, key, attributes, signingKey);
