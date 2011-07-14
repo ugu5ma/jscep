@@ -3,5 +3,6 @@
 org.bouncycastle.asn1.pkcs.CertificationRequest
 
 {{{
-PKCS10CertificationRequest csr = new PKCS10CertificationRequest();
+String signatureAlgorithm = "SHA1withRSA";
+PKCS10CertificationRequest csr = new PKCS10CertificationRequest(signatureAlgorithm);
 }}} 
