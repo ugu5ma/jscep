@@ -1,6 +1,5 @@
-#summary One-sentence summary of this page.
-
-How to set a password 
+#summary Adding a challenge password to a PKCS#10 certification request
+#labels Manual
 
 {{{
 String signatureAlgorithm = "SHA1withRSA";
