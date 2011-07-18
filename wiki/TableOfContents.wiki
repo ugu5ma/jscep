@@ -12,8 +12,7 @@
      * CertificationRequest
      * [CallbackHandlerUsage Callback Handler]
    * [ServerUsage Server Usage]
-   * [ApiReference API Reference]
- * Getting jSCEP
+ * Getting jscep
    * [CompiledPackages Compiled Packages]
    * [BuildingFromSource Building from Source]
    * [Maven Maven]
