@@ -56,7 +56,7 @@ Plus a further three [#Supporting_Operation supporting operations]:
 
 === Enrolment ===
 
-Enrolment is the primary operation of the SCEP client, and is used for enrolling an entity in a PKI.  In order to invoke the operation, you will need to provide a certificate signing request (CSR) (*How do I do that?*):
+Enrolment is the primary operation of the SCEP client, and is used for enrolling an entity in a PKI.  In order to invoke the operation, you will need to provide a [CertificationRequest certificate signing request] (CSR):
 
 {{{
 CertificationRequest csr = ...;
