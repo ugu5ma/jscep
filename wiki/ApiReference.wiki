@@ -3,4 +3,4 @@
 
 == Javadocs ==
 
-The Javadoc documentation is available [http://jscep.googlecode.com/svn/trunk/docs/index.html here].
+The Javadoc documentation is available [http://jscep.googlecode.com/svn/trunk/docs/index.html here] (*out of date*).
