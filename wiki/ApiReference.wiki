@@ -1,6 +1,0 @@
-#summary Javadoc documentation for api, client and server projects
-#labels Deprecated
-
-== Javadocs ==
-
-The Javadoc documentation is available [http://jscep.googlecode.com/svn/trunk/docs/index.html here] (*out of date*).
