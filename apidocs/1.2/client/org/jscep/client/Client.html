@@ -1,0 +1,441 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>
+Client (jscep::client 1.2 API)
+</TITLE>
+
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Client (jscep::client 1.2 API)";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../org/jscep/client/package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/Client.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV CLASS&nbsp;
+&nbsp;NEXT CLASS</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?org/jscep/client/Client.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="Client.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<!-- ======== START OF CLASS DATA ======== -->
+<H2>
+<FONT SIZE="-1">
+org.jscep.client</FONT>
+<BR>
+Class Client</H2>
+<PRE>
+java.lang.Object
+  <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><B>org.jscep.client.Client</B>
+</PRE>
+<HR>
+<DL>
+<DT><PRE>public class <B>Client</B><DT>extends java.lang.Object</DL>
+</PRE>
+
+<P>
+This class represents a SCEP client, or Requester.
+<P>
+
+<P>
+<HR>
+
+<P>
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+<A NAME="constructor_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Constructor Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#Client(java.net.URL, java.security.cert.X509Certificate, java.security.PrivateKey, javax.security.auth.callback.CallbackHandler)">Client</A></B>(java.net.URL&nbsp;url,
+       java.security.cert.X509Certificate&nbsp;client,
+       java.security.PrivateKey&nbsp;priKey,
+       javax.security.auth.callback.CallbackHandler&nbsp;cbh)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new Client instance without a profile identifier.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#Client(java.net.URL, java.security.cert.X509Certificate, java.security.PrivateKey, javax.security.auth.callback.CallbackHandler, java.lang.String)">Client</A></B>(java.net.URL&nbsp;url,
+       java.security.cert.X509Certificate&nbsp;client,
+       java.security.PrivateKey&nbsp;priKey,
+       javax.security.auth.callback.CallbackHandler&nbsp;cbh,
+       java.lang.String&nbsp;profile)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new Client instance with a profile identifier.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Method Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;org.jscep.transaction.EnrolmentTransaction</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#enrol(org.bouncycastle.asn1.pkcs.CertificationRequest)">enrol</A></B>(org.bouncycastle.asn1.pkcs.CertificationRequest&nbsp;csr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enrolls the provided CSR into a PKI.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;org.jscep.response.Capabilities</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#getCaCapabilities()">getCaCapabilities</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieves the set of SCEP capabilities from the CA.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.util.List&lt;java.security.cert.X509Certificate&gt;</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#getCaCertificate()">getCaCertificate</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieves the CA certificate.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.util.List&lt;java.security.cert.X509Certificate&gt;</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#getCertificate(java.math.BigInteger)">getCertificate</A></B>(java.math.BigInteger&nbsp;serial)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the certificate corresponding to the provided serial number, as issued
+ by the current CA.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.security.cert.X509CRL</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#getRevocationList()">getRevocationList</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the current CA's certificate revocation list</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.util.List&lt;java.security.cert.X509Certificate&gt;</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../org/jscep/client/Client.html#getRolloverCertificate()">getRolloverCertificate</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieves the "rollover" certificate to be used by the CA.</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<A NAME="constructor_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Constructor Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="Client(java.net.URL, java.security.cert.X509Certificate, java.security.PrivateKey, javax.security.auth.callback.CallbackHandler)"><!-- --></A><H3>
+Client</H3>
+<PRE>
+public <B>Client</B>(java.net.URL&nbsp;url,
+              java.security.cert.X509Certificate&nbsp;client,
+              java.security.PrivateKey&nbsp;priKey,
+              javax.security.auth.callback.CallbackHandler&nbsp;cbh)</PRE>
+<DL>
+<DD>Creates a new Client instance without a profile identifier.
+ <p>
+ This method will throw a NullPointerException if any of the arguments are null,
+ and an InvalidArgumentException if any of the arguments is invalid.
+<P>
+<DL>
+<DT><B>Parameters:</B><DD><CODE>url</CODE> - the URL to the SCEP server.<DD><CODE>client</CODE> - the certificate to identify this client.<DD><CODE>priKey</CODE> - the private key for the identity.<DD><CODE>cbh</CODE> - the callback handler to check the CA identity.</DL>
+</DL>
+<HR>
+
+<A NAME="Client(java.net.URL, java.security.cert.X509Certificate, java.security.PrivateKey, javax.security.auth.callback.CallbackHandler, java.lang.String)"><!-- --></A><H3>
+Client</H3>
+<PRE>
+public <B>Client</B>(java.net.URL&nbsp;url,
+              java.security.cert.X509Certificate&nbsp;client,
+              java.security.PrivateKey&nbsp;priKey,
+              javax.security.auth.callback.CallbackHandler&nbsp;cbh,
+              java.lang.String&nbsp;profile)</PRE>
+<DL>
+<DD>Creates a new Client instance with a profile identifier.
+ <p>
+ With the exception of the profile name, this method will throw a 
+ NullPointerException if any of the arguments are null, and an 
+ InvalidArgumentException if any of the arguments is invalid.
+<P>
+<DL>
+<DT><B>Parameters:</B><DD><CODE>url</CODE> - the URL to the SCEP server.<DD><CODE>client</CODE> - the certificate to identify this client.<DD><CODE>priKey</CODE> - the private key for the identity.<DD><CODE>cbh</CODE> - the callback handler to check the CA identity.<DD><CODE>profile</CODE> - the name of the CA profile.</DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="getCaCapabilities()"><!-- --></A><H3>
+getCaCapabilities</H3>
+<PRE>
+public org.jscep.response.Capabilities <B>getCaCapabilities</B>()
+                                                  throws java.io.IOException</PRE>
+<DL>
+<DD>Retrieves the set of SCEP capabilities from the CA.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the capabilities of the server.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getCaCertificate()"><!-- --></A><H3>
+getCaCertificate</H3>
+<PRE>
+public java.util.List&lt;java.security.cert.X509Certificate&gt; <B>getCaCertificate</B>()
+                                                                    throws java.io.IOException</PRE>
+<DL>
+<DD>Retrieves the CA certificate.
+ <p>
+ If the CA is using an RA, the RA certificate will also
+ be present in the returned list.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the list of certificates.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRolloverCertificate()"><!-- --></A><H3>
+getRolloverCertificate</H3>
+<PRE>
+public java.util.List&lt;java.security.cert.X509Certificate&gt; <B>getRolloverCertificate</B>()
+                                                                          throws java.io.IOException</PRE>
+<DL>
+<DD>Retrieves the "rollover" certificate to be used by the CA.
+ <p>
+ If the CA is using an RA, the RA certificate will be present
+ in the returned list.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the list of certificates.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRevocationList()"><!-- --></A><H3>
+getRevocationList</H3>
+<PRE>
+public java.security.cert.X509CRL <B>getRevocationList</B>()
+                                             throws java.io.IOException,
+                                                    org.jscep.transaction.OperationFailureException</PRE>
+<DL>
+<DD>Returns the current CA's certificate revocation list
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>a collection of CRLs
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.
+<DD><CODE>PkiOperationFailureException</CODE> - if the operation fails.
+<DD><CODE>org.jscep.transaction.OperationFailureException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getCertificate(java.math.BigInteger)"><!-- --></A><H3>
+getCertificate</H3>
+<PRE>
+public java.util.List&lt;java.security.cert.X509Certificate&gt; <B>getCertificate</B>(java.math.BigInteger&nbsp;serial)
+                                                                  throws java.io.IOException,
+                                                                         org.jscep.transaction.OperationFailureException</PRE>
+<DL>
+<DD>Returns the certificate corresponding to the provided serial number, as issued
+ by the current CA.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>serial</CODE> - the serial number.
+<DT><B>Returns:</B><DD>the certificate.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.
+<DD><CODE>PkiOperationFailureException</CODE> - if the operation fails.
+<DD><CODE>org.jscep.transaction.OperationFailureException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="enrol(org.bouncycastle.asn1.pkcs.CertificationRequest)"><!-- --></A><H3>
+enrol</H3>
+<PRE>
+public org.jscep.transaction.EnrolmentTransaction <B>enrol</B>(org.bouncycastle.asn1.pkcs.CertificationRequest&nbsp;csr)
+                                                 throws java.io.IOException</PRE>
+<DL>
+<DD>Enrolls the provided CSR into a PKI.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>csr</CODE> - the certificate signing request
+<DT><B>Returns:</B><DD>the enrollment transaction.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE> - if any I/O error occurs.</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../org/jscep/client/package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/Client.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV CLASS&nbsp;
+&nbsp;NEXT CLASS</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?org/jscep/client/Client.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="Client.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+Copyright &#169; 2011. All Rights Reserved.
+</BODY>
+</HTML>
