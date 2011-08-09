@@ -29,5 +29,4 @@ The following people have reported issues, provided patches, or are active on th
 
 ==Other Contributors==
 
-  * *!JetBrains*
-    * IntelliJ IDEA License
+  * !JetBrains - IntelliJ IDEA 10.5 Open Source License 
