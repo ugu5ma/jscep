@@ -10,7 +10,7 @@ The following people have provided major patches and carried out interoperabilit
     * Cisco
     * Verisign Server
     * iOS (iPhone, iPad, iPod Touch)
-  * !JetBrains
+  * *!JetBrains*
     * IntelliJ IDEA License
 
 ==Other Contributors==
