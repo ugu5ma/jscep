@@ -10,10 +10,8 @@ The following people have provided major patches and carried out interoperabilit
     * Cisco
     * Verisign Server
     * iOS (iPhone, iPad, iPod Touch)
-  * *!JetBrains*
-    * IntelliJ IDEA License
 
-==Other Contributors==
+==Minor Contributors==
 
 The following people have reported issues, provided patches, or are active on the jscep mailing list:
 
@@ -28,3 +26,8 @@ The following people have reported issues, provided patches, or are active on th
   * freeborg
   * hiro2k
   * jonesmw
+
+==Other Contributors==
+
+  * *!JetBrains*
+    * IntelliJ IDEA License
