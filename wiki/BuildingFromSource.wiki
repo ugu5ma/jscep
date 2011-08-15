@@ -1,4 +1,6 @@
 #labels Manual
+*jscep* uses Apache Maven to build.
+
 You can build from source by:
 
   # Downloading the Source Packages
