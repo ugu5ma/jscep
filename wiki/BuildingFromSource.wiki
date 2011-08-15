@@ -20,3 +20,7 @@ user@host:~$ cd jscep-read-only
 }}}
 
 == Maven Commands ===
+
+{{{
+mvn clean install
+}}}
