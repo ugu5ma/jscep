@@ -8,7 +8,7 @@
 
 === Downloading Source Packages ===
 
-Source packages are available from the Google Code [http://code.google.com/p/jscep/downloads/list?q=*sources.jar Downloads] page.
+Source packages are available from the [http://code.google.com/p/jscep/downloads/list?q=*sources.jar downloads] page.
 
 === Checking Out from Subversion ===
 
