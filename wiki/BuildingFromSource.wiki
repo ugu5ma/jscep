@@ -21,6 +21,8 @@ user@host:~$ cd jscep-read-only
 
 == Maven Commands ===
 
+To build all modules:
+
 {{{
 mvn clean install
 }}}
