@@ -21,7 +21,7 @@ http://tools.ietf.org/html/draft-nourse-scep
   # Either CA or RA responds with single DER-encoded X.509 certificate DER-encoded 'degenerate' PKCS#7 !SignedData message with an X.509 certificate chain (CA -> RA)
   # Requester checks if CA certificate is trusted by prompting user with message digest of X.509 certificate
   # Requester constructs a PKCS#10 certificate signing request (CSR)
-  # Requester constructs a PKCS#7 !EnvelopedData object using the DER-encoded CSR and encrypts it using the message recipient's public key (either the CA, or an RA with a keyEncipherment !KeyUsage extension)   
+  # Requester constructs a PKCS#7 !EnvelopedData object using the DER-encoded CSR and encrypts the envelope encryption key using the message recipient's public key (either the CA, or an RA with a keyEncipherment !KeyUsage extension)   
   # Requester constructs a PKCS#7 !SignedData using the DER-encoded !EnvelopedData and its certificate, and signs the data using its RSA private key
   # Requester sends the DER-encoded !SignedData object in a *PKCSReq* message to the RA (or CA)
   # RA (or CA) opens the !SignedData message and extracts the !EnvelopedData.
