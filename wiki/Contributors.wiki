@@ -26,6 +26,7 @@ The following people have reported issues, provided patches, or are active on th
   * freeborg
   * hiro2k
   * jonesmw
+  * Ryan Schipper
 
 ==Other Contributors==
 
