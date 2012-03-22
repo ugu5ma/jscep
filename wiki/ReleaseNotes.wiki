@@ -9,8 +9,6 @@ Compatibility with Microsoft NDES and Entrust VPN Enrollment Server.
 
   * issue 26
   * issue 27
-  * issue 32
-  * issue 33
   * issue 41
   * issue 46
   * issue 47
