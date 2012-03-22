@@ -43,6 +43,6 @@ This will upload the source, javadoc and jar artifacts for api, client and serve
 
 ==Maven Artifact==
 
-Login to oss.sonatype.org
+* Login to [https://oss.sonatype.org/ oss.sonatype.org].
 
-[http://www.sonatype.com/people/2010/11/what-to-do-when-nexus-returns-401/ Nexus 401]
+[http://www.sonatype.com/people/2010/11/what-to-do-when-nexus-returns-401/ Nexus 401?]
