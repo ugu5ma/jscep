@@ -43,6 +43,10 @@ This will upload the source, javadoc and jar artifacts for api, client and serve
 
 ==Maven Artifact==
 
-* Login to [https://oss.sonatype.org/ oss.sonatype.org].
+  * Login to [https://oss.sonatype.org/ oss.sonatype.org].
+  * Under *Build Promotion* select *Staging Repositories*
+  * Select the Repository
+  * Click 'Close'
+  * Click 'Release'
 
 [http://www.sonatype.com/people/2010/11/what-to-do-when-nexus-returns-401/ Nexus 401?]
