@@ -1,29 +1,39 @@
 #summary How to do a release
 #labels Phase-Support
 
+== Branching and Nexus ==
+
 {{{
 mvn release:prepare
 }}}
 
-Enter the new version numbers.  Defaults are usually fine.  You will then be prompted for the password for your GPG key.  If everything goes fine, then do:
+Enter the new version numbers.  Defaults are usually fine.  You will then be prompted for the password for your GPG key.  If everything goes fine, then do branch and deploy by issuing the following command.
 
 {{{
 mvn release:perform
 }}}
 
-Otherwise, do:
+=== Preparation Problems ===
+
+If `release:prepare` fails, issue the following command to undo:
 
 {{{
 mvn release:rollback
 }}}
 
-When the release has been performed and the artifacts have been deployed to Sonatype, check out the new release tag, then do in each of api, client and server.
+== Upload Release to Google Code ==
+
+Check out the new release tag, then do the following in each of the following directories:
+
+  * api
+  * client
+  * server
 
 {{{
 mvn clean install source:jar javadoc:jar com.googlecode.maven-gcu-plugin:maven-gcu-plugin:1.0:upload
 }}}
 
-Upload the source, javadoc and jar artifacts for api, client and server.
+This will upload the source, javadoc and jar artifacts for api, client and server.
 
 ==Maven Artifact==
 
