@@ -28,7 +28,7 @@ We now have all we need to create a SCEP client:
 Client client = new Client(server, cert, priKey, handler);
 }}}
 
-If your SCEP server supports multiple identities, you can provide the name of the identity as a String:
+If your SCEP server supports multiple identities (or you're using Microsoft NDES), you can provide the name of the identity as a String:
 
 {{{
 String profile = "PublicCA";
