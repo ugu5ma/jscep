@@ -9,11 +9,15 @@
 
 == Branching and Nexus ==
 
+*Note:* need a settings.xml server configuration for jscep.googlecode.com
+
 {{{
 mvn release:prepare
 }}}
 
 Enter the new version numbers.  Defaults are usually fine.  You will then be prompted for the password for your GPG key.  If everything goes fine, then do branch and deploy by issuing the following command.
+
+*Note:* need a settings.xml server configuration for oss.sonatype.org
 
 {{{
 mvn release:perform
