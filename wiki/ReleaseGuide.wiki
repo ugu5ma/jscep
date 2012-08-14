@@ -33,6 +33,8 @@ mvn release:rollback
 
 == Upload Release to Google Code ==
 
+*Note:* need a settings.xml server configuration for googlecode
+
 Check out the new release tag, then do the following:
 
 {{{
