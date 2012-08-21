@@ -23,7 +23,7 @@ Updated Bouncy Castle libraries to 1.47
   * issue 75
   * issue 76
 
-= 1.3.1 (2012-06-12) =
+= 1.3.1 (2012-06-12) r1356 =
 
 Released as a single project (jscep) instead of project components (api, client, server).
 
@@ -31,7 +31,7 @@ Released as a single project (jscep) instead of project components (api, client,
 
   * issue 62
 
-= 1.3 (2012-03-22) =
+= 1.3 (2012-03-22) r1344 =
 
 Compatibility with Microsoft NDES and Entrust VPN Enrollment Server.
 
@@ -47,7 +47,7 @@ Compatibility with Microsoft NDES and Entrust VPN Enrollment Server.
   * issue 56
   * issue 57
 
-= 1.2 (2011-05-30) =
+= 1.2 (2011-05-30) r1155 =
 
 == Issues Fixed ==
 
@@ -62,13 +62,13 @@ Compatibility with Microsoft NDES and Entrust VPN Enrollment Server.
 
 Thanks to Justin Peters at BT Trustwise for the majority of the patches!
 
-= 1.1.4 (2011-03-03) =
+= 1.1.4 (2011-03-03) r1126 =
 
 == Issues Fixed ==
 
   * issue 24
 
-= 1.1.3 (2011-02-01) =
+= 1.1.3 (2011-02-01) r1120 =
 
 == Issues Fixed ==
 
@@ -76,14 +76,22 @@ Thanks to Justin Peters at BT Trustwise for the majority of the patches!
   * issue 21
   * issue 23
 
-= 1.1.2 (2010-11-05) =
+= 1.1.2 (2010-11-05) r1104 =
 
 Some minor API changes, and much-improved SCEP server support.
 
-= 1.1.1 (2010-11-02) =
+= 1.1.1 (2010-11-02) r984 =
 
 Added lots of refactoring and API changes as part of work sponsored by [http://www.thrupoint.net/ ThruPoint, Ltd.]
 
-= 1.0.0 (2010-03-03) =
+= 1.1.0 (2010-11-01) r979 =
+
+= 1.0.0 (2010-03-03) r901 =
 
 This is the first major stable release of jscep.
+
+= 0.20.7 (2010-02-15) r727 =
+= 0.20.6 (2010-02-04) r633 =
+= 0.20.5 (2010-02-04) r630 =
+= 0.20.4 (2010-02-04) r626 =
+= 0.20.3 (2010-02-02) r491 =
