@@ -93,7 +93,17 @@ Added lots of refactoring and API changes as part of work sponsored by [http://w
 This is the first major stable release of jscep.
 
 = 0.20.7 (2010-02-15) r727 =
+
 = 0.20.6 (2010-02-04) r633 =
+
+No notable changes.
+
 = 0.20.5 (2010-02-04) r630 =
+
+Updated to use MIT license.
+
 = 0.20.4 (2010-02-04) r626 =
+
+No notable changes.
+
 = 0.20.3 (2010-02-02) r491 =
