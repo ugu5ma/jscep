@@ -14,6 +14,7 @@ Updated Bouncy Castle libraries to 1.47
   * issue 44
   * issue 61
   * issue 63
+  * issue 65
   * issue 66
   * issue 67
   * issue 68
