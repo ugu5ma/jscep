@@ -17,6 +17,12 @@ For example, to add *jscep* as a dependency to your own Maven project, add the f
 </dependencies>
 }}}
 
+== Ivy ==
+
+{{{
+<dependency org="com.google.code.jscep" name="jscep" rev="2.0" />
+}}}
+
 == Repository Hosting ==
 
 Maven repository hosting for *jscep* artifacts is provided by [http://nexus.sonatype.org/oss-repository-hosting.html Sonatype].
