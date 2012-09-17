@@ -44,3 +44,4 @@ As part of our [QualityAssurance QA] process, we would like to be able to schedu
   * [https://datatracker.ietf.org/doc/draft-nourse-scep/history/ Draft History]
   * http://www.gamingstandards.com/pdfs/standards/p2p_1_1_1/ptop/appendixd_scep_operations/appendix_d_scep_operations.htm
   * http://luca.ntop.org/Teaching/Appunti/asn1.html
+  * http://technet.microsoft.com/en-us/library/cc753784(v=ws.10).aspx
