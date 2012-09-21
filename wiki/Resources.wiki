@@ -45,3 +45,4 @@ As part of our [QualityAssurance QA] process, we would like to be able to schedu
   * http://www.gamingstandards.com/pdfs/standards/p2p_1_1_1/ptop/appendixd_scep_operations/appendix_d_scep_operations.htm
   * http://luca.ntop.org/Teaching/Appunti/asn1.html
   * http://technet.microsoft.com/en-us/library/cc753784(v=ws.10).aspx
+  * http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/iPhoneOTAConfiguration/OTASecurity/OTASecurity.html#//apple_ref/doc/uid/TP40009505-CH3-SW1
