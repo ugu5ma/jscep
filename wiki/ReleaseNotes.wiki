@@ -3,6 +3,25 @@
 
 <wiki:toc max_depth="1" />
 
+= 2.0.1 (2013-03-04) 
+
+  * Updated BC to 1.48
+  * Added TransportFactory to allow future replacement of transport library
+  * Refactored CertStoreInspector to allow custom logic for exotic SCEP servers
+
+== Issues Fixed ==
+
+  * issue 71
+  * issue 74
+  * issue 77
+  * issue 78
+  * issue 79
+  * issue 80
+  * issue 81
+  * issue 84
+  * issue 86
+  * issue 88
+
 = 2.0 (2012-08-20) r1470 =
 
 Updated Bouncy Castle libraries to 1.47
