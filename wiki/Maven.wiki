@@ -11,14 +11,14 @@ For example, to add *jscep* as a dependency to your own Maven project, add the f
 <dependency>
     <groupId>com.google.code.jscep</groupId>
     <artifactId>jscep</artifactId>
-    <version>2.0</version>
+    <version>2.0.1</version>
 </dependency>
 }}}
 
 == Ivy ==
 
 {{{
-<dependency org="com.google.code.jscep" name="jscep" rev="2.0" />
+<dependency org="com.google.code.jscep" name="jscep" rev="2.0.1" />
 }}}
 
 == Repository Hosting ==
