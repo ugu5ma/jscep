@@ -3,7 +3,7 @@
 
 || groupId || *com.google.code.jscep* ||
 || artifactId || *jscep* ||
-|| version || *2.0* ||
+|| version || *2.0.1* ||
 
 For example, to add *jscep* as a dependency to your own Maven project, add the following to your `pom.xml`:
 
