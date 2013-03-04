@@ -3,7 +3,7 @@
 
 <wiki:toc max_depth="1" />
 
-= 2.0.1 (2013-03-04) 
+= 2.0.1 (2013-03-04) =
 
   * Updated BC to 1.48
   * Added TransportFactory to allow future replacement of transport library
