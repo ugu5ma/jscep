@@ -8,8 +8,8 @@
 == Issues Fixed ==
 
   * https://github.com/seize-the-dave/jscep/issues/6 (Doxia dependencies declared as compile scope)
-  * https://github.com/seize-the-dave/jscep/pull/4 (TransactionId: implement `Comparable<TransactionId>` for use in ConcurrentSkipListMap)
-  * https://github.com/seize-the-dave/jscep/issues/2 (Unclear debug logs from CertStoreInspector)
+  * https://github.com/seize-the-dave/jscep/pull/4 (!TransactionId: implement `Comparable<TransactionId>` for use in !ConcurrentSkipListMap)
+  * https://github.com/seize-the-dave/jscep/issues/2 (Unclear debug logs from !CertStoreInspector)
   * https://github.com/seize-the-dave/jscep/issues/1 (Interoperability issue between JSCEP client and Sun HttpURLConnection Implementation)
 
 = 2.0.1 (2013-03-04) =
