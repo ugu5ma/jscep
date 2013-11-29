@@ -1,5 +1,5 @@
 jscep is now hosted at GitHub:
 
-https://github.com/seize-the-dave/jscep
+https://github.com/jscep/jscep
 
 You can still see the [https://code.google.com/p/jscep/source/ old source] and [https://code.google.com/p/jscep/issues/ old issues] but please fork the latest code base and raise issues on GitHub rather than Google Code. 
