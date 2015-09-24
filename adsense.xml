@@ -1,0 +1,17 @@
+<Module> 
+  <ModulePrefs author_email="david@grant.org.uk" author="Dave Grant" author_link="http://code.google.com/p/jscep" description="jSCEP Adverts" height="90" title="Adsense" title_url="http://www.google.com/adsense" width="728"/> 
+  <Content type="html" preferred_height="728" preferred_width="90"> 
+  	<![CDATA[
+		<script type="text/javascript">
+			<!--
+		  		google_ad_client = "pub-6864556818640942";
+				/* 728x90, created 19/01/10 */
+				google_ad_slot = "7951670574";
+				google_ad_width = 728;
+				google_ad_height = 90;
+			//-->
+		</script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+  	]]>
+  </Content> 
+</Module> 

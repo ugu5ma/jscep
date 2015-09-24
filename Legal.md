@@ -1,0 +1,1 @@
+**jscep** is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).  You are free to use **jscep** in whatever environment you choose, either open or closed source, but you **must** include [this license](http://jscep.googlecode.com/svn/trunk/LICENCE.txt) with your code.

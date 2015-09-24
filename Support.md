@@ -1,0 +1,2 @@
+  * If you have any questions about any aspect of jscep, please send them to the [jscep-support](http://groups.google.com/group/jscep-support) mailing list ([jscep-support@googlegroups.com](mailto:jscep-support@googlegroups.com)).
+  * If you have encountered a definite problem, or have identified a feature you'd like to see, please add it to our [issues list](http://code.google.com/p/jscep/issues/list).
